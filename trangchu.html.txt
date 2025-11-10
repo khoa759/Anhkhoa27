@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anh Khoa Photoshop | Trang chủ</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <header> 
+        <h1>Thiết kế Photoshop chuyên nghiệp.</h1>
+        <p>Chúng tôi chuyên cung cấp các dịch vụ thiết kế, chỉnh sửa ảnh, phục chế ảnh cũ và sáng tạo đồ họa chuyên nghiệp theo yêu cầu của khách hàng.</p>
+        
+        <nav>
+            <ul>
+                <li><a href="trangchu.html">Trang chủ</a></li>
+                <li><a href="thongtin.html">Thông tin</a></li>
+                <li><a href="dichvu.html">Dịch vụ</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main> 
+        <section>
+            <h2>Đăng ký để nhận thông báo mới từ Anh Khoa Photoshop</h2>
+            <form action="/subscribe" method="POST"> 
+                <input type="email" id="email-subscribe" name="email" placeholder="Nhập Email..." required>
+                <input type="submit" value="Đăng ký">
+            </form>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Công cụ Photoshop</h2>
+            <p>
+                Photoshop cung cấp hàng trăm công cụ mạnh mẽ như Pen Tool, Brush, Eraser, Clone Stamp, 
+                giúp người dùng chỉnh sửa và sáng tạo hình ảnh với độ chính xác cao.
+            </p>
+            <img src="images/tools.png" alt="Công cụ Photoshop"> 
+        </section>
+
+        <section>
+            <h2>Hiệu ứng và Layer</h2>
+            <p>
+                Photoshop sử dụng hệ thống Layer linh hoạt, cho phép tạo hiệu ứng ánh sáng, đổ bóng, làm mờ, 
+                phối màu và nhiều kỹ thuật đặc biệt để hình ảnh trở nên sống động hơn.
+            </p>
+            <img src="images/layers.png" alt="Hiệu ứng và Layer">
+        </section>
+
+        <section>
+            <h2>Thiết kế sáng tạo</h2>
+            <p>
+                Với Photoshop, chúng tôi mang đến những thiết kế độc đáo như banner quảng cáo, logo thương hiệu, 
+                bìa album, poster, ảnh nghệ thuật và nhiều sản phẩm sáng tạo khác.
+            </p>
+            <img src="images/design.png" alt="Thiết kế sáng tạo">
+        </section>
+    </main>
+
+    <footer> 
+        <hr>
+        <p>Anh Khoa Photoshop, Copyright © <time datetime="2025">2025</time></p>
+        </footer>
+</body>
+</html>

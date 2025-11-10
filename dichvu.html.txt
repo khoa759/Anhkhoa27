@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anh Khoa Photoshop | Dịch vụ</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <header> 
+        <h1>Anh Khoa Photoshop</h1>
+
+        <nav>
+            <ul>
+                <li><a href="trangchu.html">Trang chủ</a></li>
+                <li><a href="thongtin.html">Thông tin</a></li>
+                <li class="current-page"><a href="dichvu.html">Dịch vụ</a></li> 
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main> 
+        <section class="signup">
+            <h2>Đăng ký để nhận thông báo mới từ chúng tôi</h2>
+            <form action="/subscribe" method="POST">
+                <label for="email-subscribe" class="visually-hidden">Email đăng ký</label> 
+                <input type="email" id="email-subscribe" name="email" placeholder="Nhập Email..." required>
+                <input type="submit" value="Đăng ký">
+            </form>
+        </section>
+
+        <hr>
+
+        <section class="service-list">
+            <h2>Các dịch vụ Photoshop</h2>
+            
+            <article> <h3>🖼️ Chỉnh sửa ảnh chuyên nghiệp</h3>
+                <p>Chỉnh màu, cắt ghép, xóa vật thể, làm đẹp ảnh chân dung, phục hồi ảnh cũ. 
+                <strong>Giá:</strong> từ 50.000đ / ảnh</p>
+            </article>
+
+            <article>
+                <h3>🎨 Thiết kế đồ họa</h3>
+                <p>Thiết kế banner, poster, logo, ảnh bìa, và các sản phẩm quảng cáo. 
+                <strong>Giá:</strong> từ 150.000đ / sản phẩm</p>
+            </article>
+
+            <article>
+                <h3>📚 Khóa học Photoshop</h3>
+                <p>Đào tạo Photoshop cơ bản đến nâng cao, hướng dẫn kỹ năng chỉnh ảnh, ghép ảnh sáng tạo. 
+                <strong>Giá:</strong> từ 500.000đ / khóa</p>
+            </article>
+        </section>
+
+        <hr>
+
+        <section class="contact-form">
+            <h2>Liên hệ</h2>
+            <form action="/contact" method="POST">
+                <div>
+                    <label for="contact-name">Tên:</label>
+                    <input type="text" id="contact-name" name="ten" placeholder="Tên" required>
+                </div>
+                <div>
+                    <label for="contact-email">Email:</label>
+                    <input type="email" id="contact-email" name="email" placeholder="Email" required>
+                </div>
+                <div>
+                    <label for="contact-content">Nội dung:</label>
+                    <textarea id="contact-content" name="noidung" rows="4" cols="30" placeholder="Nội dung..." required></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Gửi">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer> 
+        <hr>
+        <p>Anh Khoa Photoshop, Copyright © <time datetime="2025">2025</time></p>
+    </footer>
+</body>
+</html>

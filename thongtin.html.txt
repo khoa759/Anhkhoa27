@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anh Khoa Photoshop | Thông tin</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <header> 
+        <h1>Anh Khoa Photoshop</h1>
+
+        <nav>
+            <ul>
+                <li><a href="trangchu.html">Trang chủ</a></li>
+                <li class="current-page"><a href="thongtin.html">Thông tin</a></li>
+                <li><a href="dichvu.html">Dịch vụ</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main> 
+        <section>
+            <h2>Đăng ký để nhận thông báo mới từ chúng tôi</h2>
+            <form action="/subscribe" method="POST"> 
+                <input type="email" id="email-subscribe" name="email" placeholder="Nhập Email..." required>
+                <input type="submit" value="Đăng ký">
+            </form>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Về chúng tôi</h2>
+            <p>
+                Anh Khoa Photoshop là đơn vị chuyên về thiết kế đồ họa, chỉnh sửa ảnh, phục chế ảnh cũ và sáng tạo hình ảnh nghệ thuật. 
+                Chúng tôi luôn lắng nghe nhu cầu của khách hàng, không ngừng đổi mới để mang đến những sản phẩm hình ảnh đẹp mắt và chuyên nghiệp nhất.
+            </p>
+            <p>
+                Với hơn 10 năm kinh nghiệm trong lĩnh vực Photoshop và thiết kế đồ họa, 
+                chúng tôi tự hào đã thực hiện hàng ngàn dự án cho các cá nhân, cửa hàng, và doanh nghiệp trong và ngoài nước.
+            </p>
+        </section>
+
+        <section>
+            <h2>Dịch vụ của chúng tôi</h2>
+            <ul>
+                <li>Chỉnh sửa ảnh chân dung, ảnh sản phẩm, ảnh cưới.</li>
+                <li>Thiết kế banner, poster, logo, và các sản phẩm quảng cáo.</li>
+                <li>Phục chế ảnh cũ, tăng độ nét, và chỉnh màu ảnh chuyên nghiệp.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer> 
+        <hr>
+        <p>Anh Khoa Photoshop, Copyright © <time datetime="2025">2025</time></p>
+    </footer>
+</body>
+</html>
